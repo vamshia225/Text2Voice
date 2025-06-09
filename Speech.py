@@ -10,7 +10,7 @@ st.write("Enter text below and convert it into speech.")
 text = st.text_area("Enter text:")
 
 # Language selection
-language = st.selectbox("Select Language:", ["english", "es", "fr", "de"])
+language = st.selectbox("Select Language:", ["es", "fr", "de"])
 # Convert button
 if st.button("Convert to Speech"):
     if text.strip():
